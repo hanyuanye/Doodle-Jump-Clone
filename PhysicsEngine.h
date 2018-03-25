@@ -1,22 +1,22 @@
 /* This class defines the main logic for the game.
-*  It defines the collision detection routine, collision resolution
-*  As well as has information on all objects. It defines what happens
-*  when two objects collide.
-*
-*  It also holds all information on the current state. It keeps
-*  a platform at player height which gets updated as the player
-*  progresses through the game. Whenever a platform falls below this
-*  and below the screen, it gets recycled to a new position above the screen.
-*  
-*  Collision detection is just a simple AABB detection routine that compares
-*  all platforms with the player. This could be optimized but it is unnecessary.
-*  Collision resolution only adjusts the velocity of the player. 
-*  
-*  This class does not define any part of the game that happens outside of the
-*  actual physics. For example, once gameover is returned, the Game class will 
-*  run it's own gameOver function. If a start screen were to be implemented, it
-*  would be implemented in the Game class.
-*/
+ *  It defines the collision detection routine, collision resolution
+ *  As well as has information on all objects. It defines what happens
+ *  when two objects collide.
+ *
+ *  It also holds all information on the current state. It keeps
+ *  a platform at player height which gets updated as the player
+ *  progresses through the game. Whenever a platform falls below this
+ *  and below the screen, it gets recycled to a new position above the screen.
+ *  
+ *  Collision detection is just a simple AABB detection routine that compares
+ *  all platforms with the player. This could be optimized but it is unnecessary.
+ *  Collision resolution only adjusts the velocity of the player. 
+ *  
+ *  This class does not define any part of the game that happens outside of the
+ *  actual physics. For example, once gameover is returned, the Game class will 
+ *  run it's own gameOver function. If a start screen were to be implemented, it
+ *  would be implemented in the Game class.
+ */
 #pragma once
 #include <vector>
 #include <string>

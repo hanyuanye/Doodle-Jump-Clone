@@ -1,15 +1,13 @@
 #include "PhysicsEngine.h"
 
-const int BUNNY_JUMP_VELOCITY = -700;
-
-const int PLATFORM_MAX_WIDTH = 200;
-const int PLATFORM_MIN_WIDTH = 150;
-const int PLATFORM_HEIGHT_OFF_SCREEN = 150;
-const int PLATFORM_ADD_EVERY_HEIGHT = 250;
-const float SCENE_HEIGHT_MAXIMUM = 2.0;
-const int NUMBER_OF_PLATFORMS = 4;
-
-const int PLATFORM_HIGHEST_STABLE_HEIGHT = 700;
+extern int BUNNY_JUMP_VELOCITY;
+extern int PLATFORM_MAX_WIDTH;
+extern int PLATFORM_MIN_WIDTH;
+extern int PLATFORM_HEIGHT_OFF_SCREEN;
+extern int PLATFORM_ADD_EVERY_HEIGHT;
+extern float SCENE_HEIGHT_MAXIMUM;
+extern int NUMBER_OF_PLATFORMS;
+extern int PLATFORM_HIGHEST_STABLE_HEIGHT;
 
 PhysicsEngine::PhysicsEngine()
 {

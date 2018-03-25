@@ -1,26 +1,21 @@
 #include "GameObject.h"
 
-const int BUNNY_MAX_SPEED_Y = 700;
-const int BUNNY_SPEED_X = 500;
-const Vec2d BUNNY_ACCELERATION(0, 1000);
-
-const int BUNNY_WIDTH = 100;
-const int BUNNY_HEIGHT = 100;
-
-const int BUNNY_HITBOX_WIDTH_START = 25;
-const int BUNNY_HITBOX_WIDTH_END = 75;
-const int BUNNY_HITBOX_HEIGHT = 10;
-
-const int PLATFORM_HEIGHT = 20;
-const int PLATFORM_HITBOX_HEIGHT = 10;
-const int SCENE_VELOCITY_ANIMATION = 400;
+extern int BUNNY_MAX_SPEED_Y;
+extern int BUNNY_SPEED_X;
+extern Vec2d BUNNY_ACCELERATION;
+extern int BUNNY_WIDTH;
+extern int BUNNY_HEIGHT;
+extern int BUNNY_HITBOX_WIDTH_START;
+extern int BUNNY_HITBOX_WIDTH_END;
+extern int BUNNY_HITBOX_HEIGHT;
+extern int PLATFORM_HEIGHT;
+extern int PLATFORM_HITBOX_HEIGHT;
+extern int SCENE_VELOCITY_ANIMATION;
+extern int PLATFORM_SPEED_INITIAL;
+extern float PLATFORM_SPEED_MULTIPLIER;
 
 const colour BUNNY_COLOUR(255, 255, 255);
-
 const colour PLATFORM_COLOUR(255, 255, 255);
-
-const int PLATFORM_SPEED_INITIAL = 200;
-const float PLATFORM_SPEED_MULTIPLIER = 0.05;
 
 GameObject::GameObject()
 {

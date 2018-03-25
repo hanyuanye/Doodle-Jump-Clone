@@ -3,9 +3,11 @@
 #include <SDL_image.h>
 #include <SDL_ttf.h>
 #include <memory>
+#include <iostream>
+
 #include "Vec2d.h"
 #include "TextureManager.h"
-#include <iostream>
+#include "Constants.h"
 
 /*This class actually is the interface to two other classes, Platform and Player
 * Player defines and implements the controllable sprite
